@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>amir - Empowering Technology Development</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>amir</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#" role="button">Get Started</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Empowering Technology Development</h2>
+                    <h3>Stay informed with user-submitted insights enhanced by artificial intelligence.</h3>
+                </hgroup>
+                <p>Access the latest updates on emerging technologies with community-contributed knowledge.</p>
+                <figure>
+                    <img src="https://openai.com/dalle-images/f94393f4-751a-4795-8451-fb5ae9a329db.png" alt="A diverse group of people sharing technological insights">
+                    <figcaption><a href="https://openai.com/dalle-images/f94393f4-751a-4795-8451-fb5ae9a329db.png" target="_blank">View Image</a></figcaption>
+                </figure>
+                <h3>Community Contributions</h3>
+                <p>User-generated content focused on providing real-time updates and discussions.</p>
+                <h3>AI-Driven Insights</h3>
+                <p>Artificial intelligence refines and organizes the shared knowledge for better accessibility.</p>
+            </section>
+        </div>
+    </main>
+    <section aria-label="Subscribe example">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <h3>Get the latest news and updates.</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="First name" aria-label="First name" required />
+                    <input type="email" id="email" name="email" placeholder="Email" aria-label="Email" required />
+                    <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+                </form>
+            </article>
+        </div>
+    </section>
+    <footer class="container">
+        <small><a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a></small>
+    </footer>
+</body>
+</html>
